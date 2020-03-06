@@ -129,6 +129,8 @@ public class HomeDaoImpl implements HomeDao {
 		batvo.setPasswd(pwd);
 		HomemyBatvo result = my.selectHome(batvo);
 		return result;
+		
+		
 
 	}
 
