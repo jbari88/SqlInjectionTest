@@ -14,6 +14,21 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
+	<repositories>
+        <repository>
+            <id>kakao.public.release.repository</id>
+            <url>http://repo.daumkakao.io/content/repositories/daum/</url>
+             <releases>
+                <enabled>true</enabled>
+              
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                
+            </snapshots>
+        </repository>
+       
+    	</repositories>
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
