@@ -23,7 +23,6 @@ import com.hailey.test.mybat.MybatMapper;
 import com.hailey.test.vo.HomeVo;
 
 @Repository("homeDao")
-
 public class HomeDaoImpl implements HomeDao {
 
 	@Autowired
