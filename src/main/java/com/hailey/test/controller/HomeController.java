@@ -40,7 +40,7 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home(HttpServletRequest req, HttpServletResponse res, Model model) {
 	
-		logger.info();
+		
 		return new ModelAndView("home");
 	}
 	
