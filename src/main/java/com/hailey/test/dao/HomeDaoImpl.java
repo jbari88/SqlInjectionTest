@@ -97,7 +97,7 @@ public class HomeDaoImpl implements HomeDao {
 		String hql = "from HomeHibVo where id='" + userId + "' and passwd='" + pwd + "'";
 		Query query = session.createQuery(hql);
 
-		/* Safe Code - namedParameter */
+		/* Safe Code - namedParameter  */
 
 		/*
 		 * String hql = "from HomeHibVo where id= :userId" + " and passwd=:passwd";
